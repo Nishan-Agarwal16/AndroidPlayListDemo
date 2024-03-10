@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentTop="true"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Download"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Upload"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bthDark"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Dark"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="Read"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="131dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/myproject" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+
+        >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="As human beings, we understand the world through our
+      senses—what we see, what we hear, what we smell, what we taste,
+      and what we touch. To represent this process in their literary
+      works, storytellers and poets use vivid language designed to appeal
+      to these senses. This language is called imagery"
+            android:textSize="15dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="click" />
+
+</LinearLayout>
